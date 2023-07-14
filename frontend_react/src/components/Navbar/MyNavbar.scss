@@ -1,0 +1,27 @@
+/* header[role="banner"] #logo-main {
+    display: block;
+    margin: 20px auto;
+  } */
+  
+  #navbar-primary.navbar-default {
+    background: transparent;
+    border: none;
+  }
+  
+  #navbar-primary.navbar-default .navbar-nav {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  #navbar-primary.navbar-default .navbar-nav > li {
+    display: inline-block;
+    float: none;
+    margin: 0 100px; // (does not work) This will add x px of space on the left and right of each item
+  }
+  
+  #navbar-primary.navbar-default .navbar-nav > li > a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px; //(does not work) This will increase the font size 
+  }
+  
