@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import { urlFor, client } from '../../client';
+import { urlFor, clientRead } from '../../client';
 
 import './Slideshow.scss'; // Import the SCSS file
 
@@ -13,7 +13,7 @@ function Slideshow() {
       try {
         // Fetch the photos from Sanity
         const query = '*[_type == "photo"]';
-        const fetchedPhotos = await client.fetch(query);
+        const fetchedPhotos = await clientRead.fetch(query);
 
         // Update the state with the fetched photos
         setPhotos(fetchedPhotos);

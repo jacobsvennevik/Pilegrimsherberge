@@ -3,6 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export {default as Navbar} from './Navbar/Navbar';
 export {default as Slideshow} from './Slideshow/Slideshow'
+export {default as Registration} from './Registration/Registration'
 
 
 
