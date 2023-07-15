@@ -4,7 +4,11 @@ import './Header.scss'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <div class="image">
+	      <h1 class="header-text">Welcome to The Coffee Grind</h1>
+      </div>
+    </div>
   )
 }
 

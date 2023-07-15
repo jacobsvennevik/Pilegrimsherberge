@@ -1,0 +1,20 @@
+.about-section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+    .banner {
+        background-color: #ccc;
+        padding: 50px 0;
+        margin-bottom: 20px;
+    }
+
+    .about-info {
+        display: flex;
+        justify-content: space-between;
+
+        .opening-times, .cafe-info {
+            width: 45%;
+        }
+    }
+}
