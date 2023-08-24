@@ -1,11 +1,10 @@
 import React from 'react';
+import Head from './components/Head'; // Import your Head component
+import Header from './components/Header'; // Import your Header component
+import Footer from './components/Footer'; // Import your Footer component
+import Foot from './components/Foot'; // Import your Foot component
 
-import { Head, Header, Footer} from './partials';
-import {NavBar} from './components'; 
-
-
-
-const index= () => {
+const index = () => {
   return (
     <>
       <Head /> {/* Include the Head component */}
@@ -20,7 +19,14 @@ const index= () => {
         {/* Body */}
         <div className="body full-width pt1 pr2 pb2 pl2">
           {/* Navigation */}
-          <NavBar />
+          <nav className="navigation border--bottom pt1">
+            <ul className="no-bullets list--inline pb1 bold">
+              <li className="small mr2"><a className="link link--text current" href="/">Who We Are</a></li>
+              <li className="small mr2"><a className="link link--text" href="/destinations.html">Destinations</a></li>
+              <li className="small mr2"><a className="link link--text" href="/pricing.html">Pricing</a></li>
+              <li className="small "><a className="link link--text" href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
           {/* Page Content */}
           <main className="content pt2 pb2">
             <h2>Who We Are</h2>
@@ -31,9 +37,9 @@ const index= () => {
           <Footer /> {/* Include the Footer component */}
         </div>{/* end Body */}
       </div>
+      <Foot /> {/* Include the Foot component */}
     </>
   );
 }
 
-export default index;
-
+export default WhoWeArePage;

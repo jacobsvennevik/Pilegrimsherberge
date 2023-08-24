@@ -24,4 +24,12 @@
     padding-right: 30px;
     font-size: 50px; //(does not work) This will increase the font size 
   }
+
+  .navbar-absolute {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* this ensures the navbar stays on top */
+  }
+  
   
