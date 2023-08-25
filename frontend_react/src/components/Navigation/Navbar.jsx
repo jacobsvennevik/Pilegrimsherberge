@@ -6,16 +6,19 @@ const NavBar = () => {
     <nav className="navigation border--bottom pt1">
       <ul className="no-bullets list--inline pb1 bold">
         <li className="small mr2">
-          <Link className="link link--text" to="/">Who We Are</Link>
+          <Link className="link link--text" to="/">Pilgrimsherberget</Link>
         </li>
         <li className="small mr2">
-          <Link className="link link--text" to="/Cafe">Destinations</Link>
+          <Link className="link link--text" to="/Cafe">Cafe</Link>
         </li>
         <li className="small mr2">
-          <Link className="link link--text" to="/pricing">Pricing</Link>
+          <Link className="link link--text" to="/Contact">Kontakt</Link>
         </li>
         <li className="small">
-          <Link className="link link--text" to="/contact">Contact</Link>
+          <Link className="link link--text" to="/Courses">Kurs</Link>
+        </li>
+        <li className="small">
+          <Link className="link link--text" to="/Utleie">Utleie</Link>
         </li>
       </ul>
     </nav>

@@ -1,24 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Head, Header, Footer, Navbar} from './Components';
-
-function Home() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h2>Home View</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
-    </div>
-  );
-}
-
-function Cafe() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h2>Home View</h2>
-      <p>Lfuck.</p>
-    </div>
-  );
-}
+import {Home, Cafe, Courses, Utleie, Contact, NoPage} from './Pages'
 
 const App = () => {
   return (
@@ -42,6 +25,10 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Cafe" element={<Cafe />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Utleie" element={<Utleie />} />
+            <Route path="/Courses" element={<Courses />} />
+            <Route path="/*" element={<NoPage />} />
         </Routes>
           </main>
           <Footer /> {/* Include the Footer component */}
