@@ -16,10 +16,13 @@
 
     .current { color: $primary-color !important; }
 
-    li { letter-spacing: 1px; }
+    li { letter-spacing: 1px;
+        margin-right: 1.5rem;
+     }
 
     @media screen and (max-width: $breakpoint--sm) {
         margin-top: -0.5rem;
+    
     }
 }
 
