@@ -1,8 +1,5 @@
 import React from 'react';
-import Head from './components/Head'; // Import your Head component
-import Header from './components/Header'; // Import your Header component
-import Footer from './components/Footer'; // Import your Footer component
-import Foot from './components/Foot'; // Import your Foot component
+import { Head, Header, Footer} from '../partials';
 
 const index = () => {
   return (
@@ -37,7 +34,6 @@ const index = () => {
           <Footer /> {/* Include the Footer component */}
         </div>{/* end Body */}
       </div>
-      <Foot /> {/* Include the Foot component */}
     </>
   );
 }

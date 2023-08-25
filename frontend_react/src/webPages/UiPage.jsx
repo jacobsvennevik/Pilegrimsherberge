@@ -1,6 +1,5 @@
 import React from 'react';
-import Head from './components/Head'; // Import your Head component
-import Foot from './components/Foot'; // Import your Foot component
+import { Head, Header, Footer} from '../partials';
 
 const UIPage = () => {
   return (
@@ -57,7 +56,6 @@ const UIPage = () => {
         </section>
 
       </div> {/* End container */}
-      <Foot /> {/* Include the Foot component */}
     </>
   );
 }
