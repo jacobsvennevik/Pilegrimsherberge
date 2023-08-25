@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { clientApp } from '../../../client';
 import submitForm from './Submitform';
-import './ContactForm.scss'; // Import your SCSS styles
 
 function ContactForm() {
   const [formData, setFormData] = useState({

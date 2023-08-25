@@ -1,10 +1,11 @@
 // Courses.js
 import React from 'react';
+import { Slideshow } from '../../Components';
 
 const Courses = () => {
   return (
     <div>
-     Courses
+      <Slideshow/>
     </div>
   );
 };

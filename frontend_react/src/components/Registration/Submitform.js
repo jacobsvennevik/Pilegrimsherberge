@@ -1,4 +1,4 @@
-import { clientApp } from '../../../client';
+import { clientApp } from '../../client';
 
 export default async function submitContact(formData) {
   try {
