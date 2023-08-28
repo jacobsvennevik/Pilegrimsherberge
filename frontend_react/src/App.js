@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Head, Header, Footer, Navbar} from './Components';
+import { Head, Header, Footer, Navbar, Slideshow} from './Components';
 import {Home, Cafe, Courses, Utleie, Contact, NoPage} from './Pages'
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <Header /> {/* Include the Header component */}
         {/* Hero image */}
         <div className="hero-container full-width show-on-mobile pt1 pl2 pr2">
-          <div className="hero full-width full-height" style={{ background: 'rgba(0, 0, 0, 0) url(\'/img/1.jpg\') no-repeat scroll center center / cover' }}></div>
+          <Slideshow /> 
         </div>
         <div className="hide-on-mobile hero" style={{ background: 'rgba(0, 0, 0, 0) url(\'/img/1.jpg\') no-repeat scroll center center / cover' }}></div>
 
