@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Links,
 } from "react-router-dom";
 import { Head, Header, Footer, Navbar, Slideshow, Hero} from './Components';
 import {Home, Cafe, Courses, Utleie, Contact, NoPage} from './Pages'
