@@ -141,7 +141,7 @@ $grid-breakpoint: $breakpoint--ty;
 
 %m-one-fourth                 { margin-left: percentage(math.div(1, 4)); }
 %m-two-fourths                { margin-left: percentage(math.div(2, 4)); }
-%m-three-fourths              { margin-left: percentage(math.div(3, 5)); }
+%m-three-fourths              { margin-left: percentage(math.div(3, 4)); }
 
 %m-one-fifth                  { margin-left: percentage(math.div(1, 5)); }
 %m-two-fifths                 { margin-left: percentage(math.div(2, 5)); }

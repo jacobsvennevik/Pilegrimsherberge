@@ -16,10 +16,10 @@ const App = () => {
         {/* Include the Head component */}
         <Head /> 
         <div className="grid-row">
-          {/* Include the Header component */}
-          <Header /> 
+          {/* Include the Header component */} 
           {/* Hero image */}
           <Hero />
+          <Header />
           {/* Body */}
           <div className="body full-width pt1 pr2 pb2 pl2">
             {/* Navigation */}
