@@ -46,14 +46,14 @@ const Header = () => {
       </div>
 
       {/* Desktop header */}
-      <div className="hide-on-mobile logo-container absolute block full-width align--center">
+      <h1 className="hide-on-mobile logo-container absolute block full-width align--center">
         {/* Desktop logo */}
         <img
           className="logo--desktop"
           src={desktopLogo}
           alt="Viking Tours"
           title="Viking Tours"
-        />
+        /></h1>
         {/* Social links */}
         <ul className="pt1 no-bullets align--center hide-on-mobile">
           <li>
@@ -72,7 +72,6 @@ const Header = () => {
             </a>
           </li>
         </ul>
-      </div>
     </header>
   );
 };
