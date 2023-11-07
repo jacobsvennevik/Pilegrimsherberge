@@ -46,7 +46,7 @@ const Header = () => {
       </div>
 
       {/* Desktop header */}
-      <h1 className="hide-on-mobile logo-container absolute block full-width align--center">
+      <h1 className="hide-on-mobile logo-container absolute block full-width align--left pl2">
         {/* Desktop logo */}
         <img
           className="logo--desktop"
@@ -55,7 +55,7 @@ const Header = () => {
           title="Viking Tours"
         /></h1>
         {/* Social links */}
-        <ul className="pt1 no-bullets align--center hide-on-mobile">
+        <ul className="pt1 no-bullets align--left pl2 hide-on-mobile">
           <li>
             <a className="link link--default" href="https://www.facebook.com">
               <img className="icon" src={facebookIcon} alt="Facebook" />

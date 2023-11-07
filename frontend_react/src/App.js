@@ -35,7 +35,7 @@ const App = () => {
                 <Route path="/*" element={<NoPage />} />
               </Routes>
             </main>
-            <Footer /> {/* Include the Footer component */}
+            
           </div>
           {/* end Body */}
         </div>
