@@ -74,7 +74,5 @@ På nettsiden brukes foreløpig noen midlertidige bilder som placeholders.
 
 ## Kreditering for CSS-templet
 
-Dette nettstedet bruker en CSS-temaplate som er hentet fra [free-css.com](https://www.free-css.com/free-css-templates/page285/viking). Takker dem for deres bidrag til nettstedets design.
-
-Dette prosjektet vil bli oppdatert med mer informasjon og funksjonalitet etter hvert som det blir tilgjengelig. Ta gjerne kontakt :)
+Dette prosjektet bruker en CSS-temaplate som er hentet fra [free-css.com](https://www.free-css.com/free-css-templates/page285/viking). Takker for hjelpen! Prosjeket vil bli oppdatert med mer informasjon og funksjonalitet etter hvert som jeg får tid. Ta gjerne kontakt :)
 
